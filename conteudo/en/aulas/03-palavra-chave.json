@@ -130,7 +130,7 @@
       "sub": "Copy it into your spreadsheet. The grouping can be done by an agent on your subscription, with your review.",
       "blocos": [
         {
-          "rot": "GO/NO-GO score (inemaSEO method, step 6)",
+          "rot": "GO/NO-GO score (ARCKHÉSEO method, step 6)",
           "icone": "lista",
           "conteudo": "| Criterion | Points |\n|---|---|\n| Shows up in Google autocomplete | +2 |\n| Google Trends > 0 over 12 months (≥ 10% of an anchor term: +3) | +2 |\n| Already has impressions in Search Console | +3 |\n| Intent to learn or buy | +1 |\n| Top 10 with ≥ 3 weak results (forum, video with no text, old, other language) | +2 |\n| Top 10 dominated by big platforms with a specific page | −2 |\n| You have a real experiment/course/project to cite | +2 (without it: −3) |\n\nGO ≥ 6 · MAYBE 3–5 · NO-GO ≤ 2"
         },
@@ -278,8 +278,8 @@
           "icone": "lupa"
         },
         {
-          "t": "inemaSEO method, step 6 (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method, step 6 (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

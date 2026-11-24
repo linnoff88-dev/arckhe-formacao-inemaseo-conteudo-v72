@@ -91,7 +91,7 @@
           "titulo": "El lote",
           "sub": "30/08/2026",
           "texto": [
-            "INEMA publicó 283 fichas de curso en un solo commit. De las 6 fichas de la muestra, 5 estaban \"descubiertas, sin indexar\" y nunca habían sido rastreadas."
+            "ARCKHÉ publicó 283 fichas de curso en un solo commit. De las 6 fichas de la muestra, 5 estaban \"descubiertas, sin indexar\" y nunca habían sido rastreadas."
           ]
         },
         {
@@ -125,14 +125,14 @@
       "sub": "Cambia \"curso\" por tu tipo de ítem. Pasa la traba por cada frase y título.",
       "blocos": [
         {
-          "rot": "prompt-ficha-extrativa.md (templates del inemaSEO)",
+          "rot": "prompt-ficha-extrativa.md (templates del ARCKHÉSEO)",
           "icone": "chat",
           "conteudo": "Tú extraes el temario de un curso a partir del TEXTO DE LA PÁGINA del curso. Reglas:\n- EXTRACTIVO: copia los títulos de módulos/rutas exactamente como aparecen (puedes quitar el emoji). Las frases de\n  \"público\", \"aprende\" y \"construye\" deben reutilizar las palabras de la página; no inventes nada.\n- No incluyas precio, gratuidad, promociones, testimonios ni números de alumnos.\n- Si un campo no está en la página, usa [] o null.\nResponde SOLO JSON: {\"estrutura\":[{\"titulo\":\"\",\"detalhe\":\"\"}],\"aprende\":[\"\"],\"publico\":[\"\"],\n\"constroi\":[\"\"],\"pre_requisitos\":[\"\"],\"carga_horaria\":null,\"nivel\":null}\nLímites: estrutura hasta 12 ítems — solo rutas/módulos/clases del contenido, nunca secciones de la página\n(\"Para quién es\", \"FAQ\", \"Empieza ahora\")."
         },
         {
           "rot": "Ejecutar la traba (validar_extracao.mjs)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo\n# fonte.txt = texto de la página real del ítem\nnode tools/validar_extracao.mjs fonte.txt \"Hidratación y pliegues\"\nnode tools/validar_extracao.mjs fonte.txt \"Curso con 12 clases sobre fermentación natural\""
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo\n# fonte.txt = texto de la página real del ítem\nnode tools/validar_extracao.mjs fonte.txt \"Hidratación y pliegues\"\nnode tools/validar_extracao.mjs fonte.txt \"Curso con 12 clases sobre fermentación natural\""
         },
         {
           "rot": "fonte.txt usado en el ejemplo",
@@ -194,7 +194,7 @@
           "cert": true
         },
         {
-          "p": "¿Por qué las 283 fichas de INEMA no se indexaban?",
+          "p": "¿Por qué las 283 fichas de ARCKHÉ no se indexaban?",
           "opcoes": [
             "Faltaba llms.txt.",
             "Eran delgadas y parecidas: de 170 a 240 palabras, 47% de vocabulario en común, FAQ idéntico, publicadas de una sola vez.",
@@ -254,13 +254,13 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "validar_extracao.mjs (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/validar_extracao.mjs",
+          "t": "validar_extracao.mjs (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/validar_extracao.mjs",
           "icone": "terminal"
         },
         {
-          "t": "prompt-ficha-extrativa.md (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
+          "t": "prompt-ficha-extrativa.md (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
           "icone": "arquivo"
         },
         {

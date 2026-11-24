@@ -111,7 +111,7 @@
             "Las otras pasan a ser de apoyo: enlazan a la página dueña con texto descriptivo, o se fusionan y se redirigen."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "La intención \"gestión de agentes de IA\" tiene su página dueña en el sitio principal; la página del evento sobre el tema sigue siendo un evento y enlaza a la guía."
           }
         },
@@ -151,7 +151,7 @@
         "abas": [
           {
             "rot": "Por qué importa el territorio",
-            "html": "<p>En INEMA, la línea base de 28 días (25/08 a 21/09/2026) mostró que <b>639 de 647 clics</b> venían de quienes ya buscaban la marca. Las búsquedas genéricas sumaban 8 clics y 72 impresiones.</p><p>Con el catálogo repartido entre el sitio principal, los cursos en otro dominio, las FAQs y las noticias, varias páginas respondían a la misma búsqueda. El territorio fue la primera decisión antes de escribir contenido nuevo.</p>"
+            "html": "<p>En ARCKHÉ, la línea base de 28 días (25/08 a 21/09/2026) mostró que <b>639 de 647 clics</b> venían de quienes ya buscaban la marca. Las búsquedas genéricas sumaban 8 clics y 72 impresiones.</p><p>Con el catálogo repartido entre el sitio principal, los cursos en otro dominio, las FAQs y las noticias, varias páginas respondían a la misma búsqueda. El territorio fue la primera decisión antes de escribir contenido nuevo.</p>"
           },
           {
             "rot": "Errores comunes",
@@ -260,8 +260,8 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Método inemaSEO, etapa 5 (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO, etapa 5 (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {

@@ -22,7 +22,7 @@
       "sub": "Clique em cada bloco.",
       "nos": [
         {"icone": "camadas", "titulo": "Pilar", "sub": "tema central, texto longo", "forte": true,
-         "detalhe": "Uma página por tema central (2 ou 3 no site todo), longa: o método inemaSEO fala em 2.500 a 4.000 palavras. Liga para todas as páginas de pergunta do tema e para os outros pilares."},
+         "detalhe": "Uma página por tema central (2 ou 3 no site todo), longa: o método ARCKHÉSEO fala em 2.500 a 4.000 palavras. Liga para todas as páginas de pergunta do tema e para os outros pilares."},
         {"icone": "chat", "titulo": "Páginas de pergunta", "sub": "uma dúvida cada",
          "detalhe": "Cada uma responde uma intenção do seu cluster (aula 3). Curta o bastante para resolver, longa o bastante para trazer o seu dado próprio."},
         {"icone": "alvo", "titulo": "Resposta direta", "sub": "2 a 4 frases no topo", "forte": true,
@@ -47,7 +47,7 @@
          "texto": ["Liste as perguntas seguintes que o leitor faria e use-as como títulos de seção. As variações do cluster entram aqui.", "Título da página de até 60 caracteres e descrição entre 110 e 160."]},
         {"titulo": "Fechar", "sub": "FAQ e links",
          "texto": ["Três ou mais perguntas reais respondidas, se existirem. Se não existem, sem FAQ: inventar pergunta é encher linguiça.", "Links para o pilar, 2 a 4 irmãs e 2 itens do catálogo (aula 6)."],
-         "exemplo": {"rot": "No INEMA", "texto": "Os pilares 2 e 3 e a página de pergunta do JARVIS foram publicados em 24/09/2026; os rascunhos dos pilares tinham cerca de 3.150 e 2.450 palavras."}}
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Os pilares 2 e 3 e a página de pergunta do JARVIS foram publicados em 24/09/2026; os rascunhos dos pilares tinham cerca de 3.150 e 2.450 palavras."}}
       ]
     },
     {
@@ -100,7 +100,7 @@
          "certa": 1, "explica": "É o teste da troca. Parágrafo que serve para qualquer negócio é commodity.", "ref": "codigo"},
         {"p": "Não há perguntas reais sobre o tema ainda. E o FAQ?",
          "opcoes": ["Inventar 5 perguntas.", "Pedir à IA perguntas prováveis.", "Ficar sem FAQ até haver perguntas reais.", "Copiar o FAQ de outra página sua."],
-         "certa": 2, "explica": "FAQ inventado ou copiado foi parte do problema das fichas finas do INEMA (FAQ idêntico em todas).", "ref": "passos"}
+         "certa": 2, "explica": "FAQ inventado ou copiado foi parte do problema das fichas finas do ARCKHÉ (FAQ idêntico em todas).", "ref": "passos"}
       ]
     },
     {
@@ -119,7 +119,7 @@
       "links": [
         {"t": "Google: recursos de IA na Busca (inglês)", "href": "https://developers.google.com/search/docs/appearance/ai-features", "icone": "lupa"},
         {"t": "Google: atualizações da documentação (inglês)", "href": "https://developers.google.com/search/updates", "icone": "calendario"},
-        {"t": "Checklist de qualidade do inemaSEO (MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
+        {"t": "Checklist de qualidade do ARCKHÉSEO (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
       ]
     }
   ]

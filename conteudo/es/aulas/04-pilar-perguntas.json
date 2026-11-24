@@ -39,7 +39,7 @@
           "titulo": "Página pilar",
           "sub": "tema central, texto largo",
           "forte": true,
-          "detalhe": "Una página por tema central (2 o 3 en todo el sitio), larga: el método inemaSEO habla de 2.500 a 4.000 palabras. Enlaza a todas las páginas de pregunta del tema y a las otras páginas pilar."
+          "detalhe": "Una página por tema central (2 o 3 en todo el sitio), larga: el método ARCKHÉSEO habla de 2.500 a 4.000 palabras. Enlaza a todas las páginas de pregunta del tema y a las otras páginas pilar."
         },
         {
           "icone": "chat",
@@ -106,7 +106,7 @@
             "Enlaces a la página pilar, 2 a 4 hermanas y 2 ítems del catálogo (clase 6)."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "Los pilares 2 y 3 y la página de pregunta de JARVIS se publicaron el 24/09/2026; los borradores de los pilares tenían cerca de 3.150 y 2.450 palabras."
           }
         }
@@ -223,7 +223,7 @@
             "Copiar el FAQ de otra página tuya."
           ],
           "certa": 2,
-          "explica": "El FAQ inventado o copiado fue parte del problema de las fichas delgadas de INEMA (FAQ idéntico en todas).",
+          "explica": "El FAQ inventado o copiado fue parte del problema de las fichas delgadas de ARCKHÉ (FAQ idéntico en todas).",
           "ref": "passos"
         }
       ]
@@ -265,8 +265,8 @@
           "icone": "calendario"
         },
         {
-          "t": "Checklist de calidad de inemaSEO (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "Checklist de calidad de ARCKHÉSEO (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

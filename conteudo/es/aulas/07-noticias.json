@@ -103,7 +103,7 @@
             "Agrega la noticia al archivo (nunca borres las antiguas) y avisa a los buscadores solo con URLs que respondan 200, como en el curso 1."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "En el sitio de noticias, 113 de 159 noticias tienen cuerpo de texto; las demás quedaron así porque la fuente exige login, tiene poco texto o dio 404. El 02/10/2026 se avisaron 342 URLs del news."
           }
         }
@@ -112,7 +112,7 @@
     {
       "tipo": "codigo",
       "titulo": "Los modelos de marcado y de cuerpo",
-      "sub": "Del inemaSEO (MIT). Cambia dominio, id y fechas.",
+      "sub": "Del ARCKHÉSEO (MIT). Cambia dominio, id y fechas.",
       "blocos": [
         {
           "rot": "jsonld-newsarticle.json",
@@ -249,13 +249,13 @@
           "icone": "lupa"
         },
         {
-          "t": "jsonld-newsarticle.json (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/jsonld-newsarticle.json",
+          "t": "jsonld-newsarticle.json (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/jsonld-newsarticle.json",
           "icone": "arquivo"
         },
         {
-          "t": "prompt-texto-noticia.md (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-texto-noticia.md",
+          "t": "prompt-texto-noticia.md (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-texto-noticia.md",
           "icone": "chat"
         }
       ]

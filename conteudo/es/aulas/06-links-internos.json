@@ -99,7 +99,7 @@
             "Un catálogo con búsqueda en el navegador también necesita enlaces en el HTML: un índice plegado (details) lo resuelve sin cambiar el aspecto visual."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 30/09/2026 la página de cursos pasó a ser \"solo búsqueda\" y 310 fichas perdieron el único enlace interno renderizado en el servidor. La corrección fue un índice plegado, sin cambio visual."
           }
         }
@@ -131,7 +131,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>$ tools/auditoria.sh https://www.inema.club / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | INEMA.club\n   links internos no HTML: 335</pre><p>Con el índice plegado, la página de cursos entrega los enlaces en el HTML del servidor, aunque sea una búsqueda en el navegador.</p>"
+            "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   links internos no HTML: 335</pre><p>Con el índice plegado, la página de cursos entrega los enlaces en el HTML del servidor, aunque sea una búsqueda en el navegador.</p>"
           },
           {
             "rot": "Errores comunes",
@@ -188,7 +188,7 @@
             "Exceso de imágenes."
           ],
           "certa": 1,
-          "explica": "Fue el caso de INEMA: 310 fichas perdieron el único enlace renderizado en el servidor. Un índice plegado lo resolvió.",
+          "explica": "Fue el caso de ARCKHÉ: 310 fichas perdieron el único enlace renderizado en el servidor. Un índice plegado lo resolvió.",
           "ref": "passos"
         },
         {
@@ -245,8 +245,8 @@
           "icone": "lupa"
         },
         {
-          "t": "auditoria.sh (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh",
+          "t": "auditoria.sh (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh",
           "icone": "terminal"
         }
       ]

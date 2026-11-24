@@ -46,7 +46,7 @@
          "texto": ["Intenção é o que a pessoa quer resolver, não a palavra exata. \"como gerenciar agentes\" e \"gestão de agentes de IA\" são a mesma intenção.", "Comece pelas 5 intenções mais importantes do seu negócio."]},
         {"titulo": "Escolher a dona", "sub": "uma por intenção",
          "texto": ["Para cada intenção, escolha a página mais completa, no site certo pelo território.", "As outras viram apoio: linkam para a dona com texto descritivo, ou são fundidas e redirecionadas."],
-         "exemplo": {"rot": "No INEMA", "texto": "A intenção \"gestão de agentes de IA\" tem dona no site principal; a página do evento sobre o tema continua como evento e linka para o guia."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "A intenção \"gestão de agentes de IA\" tem dona no site principal; a página do evento sobre o tema continua como evento e linka para o guia."}},
         {"titulo": "Conferir antes de criar", "sub": "toda página nova",
          "texto": ["Antes de nascer uma página, procure se já existe outra sua respondendo a mesma busca: no site, no blog, nas FAQs, nos eventos.", "Se existe, melhore a dona em vez de criar uma concorrente."]}
       ]
@@ -66,7 +66,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Por que o território importa", "html": "<p>No INEMA, a linha de base de 28 dias (25/08 a 21/09/2026) mostrou que <b>639 de 647 cliques</b> vinham de quem já buscava a marca. As buscas genéricas somavam 8 cliques e 72 impressões.</p><p>Com o catálogo espalhado entre o site principal, os cursos em outro domínio, as FAQs e as notícias, várias páginas respondiam a mesma busca. O território foi a primeira decisão antes de escrever conteúdo novo.</p>"},
+          {"rot": "Por que o território importa", "html": "<p>No ARCKHÉ, a linha de base de 28 dias (25/08 a 21/09/2026) mostrou que <b>639 de 647 cliques</b> vinham de quem já buscava a marca. As buscas genéricas somavam 8 cliques e 72 impressões.</p><p>Com o catálogo espalhado entre o site principal, os cursos em outro domínio, as FAQs e as notícias, várias páginas respondiam a mesma busca. O território foi a primeira decisão antes de escrever conteúdo novo.</p>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Notícia virando guia</b>: \"o que é X\" no blog de novidades disputa com o pilar.</li><li><b>Duas FAQs para a mesma pergunta</b>: escolha uma dona e redirecione a outra.</li><li><b>Bloco \"outros sites da rede\"</b> em toda página: link entre sites é contextual e raro.</li></ul>"}
         ]
       }
@@ -116,7 +116,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO, etapa 5 (MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Método ARCKHÉSEO, etapa 5 (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
         {"t": "Google: URLs duplicadas e canônicas (inglês)", "href": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls", "icone": "lupa"},
         {"t": "Google: redirecionamentos 301 (inglês)", "href": "https://developers.google.com/search/docs/crawling-indexing/301-redirects", "icone": "seta"}
       ]

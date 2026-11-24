@@ -47,13 +47,13 @@
          "texto": ["Preencha título, descrição, datas reais, idioma, a fonte em isBasedOn e o publisher com o @id da sua organização."]},
         {"titulo": "Arquivo", "sub": "e aviso",
          "texto": ["Acrescente a notícia ao arquivo (nunca remova as antigas) e avise os buscadores só com URLs que respondem 200, como no curso 1."],
-         "exemplo": {"rot": "No INEMA", "texto": "No site de notícias, 113 de 159 notícias têm corpo de texto; as outras ficaram assim porque a fonte exige login, tem pouco texto ou deu 404. Em 02/10/2026 foram avisadas 342 URLs do news."}}
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "No site de notícias, 113 de 159 notícias têm corpo de texto; as outras ficaram assim porque a fonte exige login, tem pouco texto ou deu 404. Em 02/10/2026 foram avisadas 342 URLs do news."}}
       ]
     },
     {
       "tipo": "codigo",
       "titulo": "Os modelos de marcação e de corpo",
-      "sub": "Do inemaSEO (MIT). Troque domínio, id e datas.",
+      "sub": "Do ARCKHÉSEO (MIT). Troque domínio, id e datas.",
       "blocos": [
         {"rot": "jsonld-newsarticle.json", "icone": "arquivo",
          "conteudo": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"@id\": \"https://news.seusite.com/noticias/id-da-noticia/#article\",\n  \"mainEntityOfPage\": \"https://news.seusite.com/noticias/id-da-noticia/\",\n  \"headline\": \"Título da notícia\",\n  \"description\": \"Resumo de uma frase.\",\n  \"articleBody\": \"Corpo com 150 a 250 palavras, escrito só com fatos da fonte.\",\n  \"datePublished\": \"2026-10-02\",\n  \"dateModified\": \"2026-10-02\",\n  \"inLanguage\": \"pt-BR\",\n  \"isBasedOn\": \"https://fonte-original.com/materia\",\n  \"publisher\": { \"@id\": \"https://www.seusite.com/#organizacao\" }\n}"},
@@ -116,8 +116,8 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Google: dados estruturados de artigo (inglês)", "href": "https://developers.google.com/search/docs/appearance/structured-data/article", "icone": "lupa"},
-        {"t": "jsonld-newsarticle.json (inemaSEO, MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/jsonld-newsarticle.json", "icone": "arquivo"},
-        {"t": "prompt-texto-noticia.md (inemaSEO, MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-texto-noticia.md", "icone": "chat"}
+        {"t": "jsonld-newsarticle.json (ARCKHÉSEO, MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/jsonld-newsarticle.json", "icone": "arquivo"},
+        {"t": "prompt-texto-noticia.md (ARCKHÉSEO, MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-texto-noticia.md", "icone": "chat"}
       ]
     }
   ]

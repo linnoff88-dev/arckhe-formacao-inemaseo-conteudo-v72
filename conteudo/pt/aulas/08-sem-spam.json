@@ -53,7 +53,7 @@
     {
       "tipo": "codigo",
       "titulo": "O checklist dos 16 itens",
-      "sub": "Do inemaSEO, adaptado à régua de 2026 nos itens 1 e 7. Passe cada página antes de publicar.",
+      "sub": "Do ARCKHÉSEO, adaptado à régua de 2026 nos itens 1 e 7. Passe cada página antes de publicar.",
       "blocos": [
         {"rot": "CHECKLIST.md (adaptado)", "icone": "check",
          "conteudo": "| # | Verificação | Bloqueia? |\n|---|---|---|\n| 1 | Resposta direta no começo, sem \"neste artigo vamos…\" (clareza para o leitor) | sim |\n| 2 | ≥ 1 dado próprio verificável, com link para a evidência | sim |\n| 3 | Nenhum número ou citação sem fonte; nada inventado pela IA | sim |\n| 4 | Não canibaliza: a palavra-chave principal não é de outra página sua | sim |\n| 5 | Título 50–60 caracteres com a palavra-chave; descrição 140–155; um H1 só | sim |\n| 6 | Links internos: pilar + ≥ 2 irmãs + ≥ 2 itens do catálogo; todos 200 | sim |\n| 7 | JSON-LD válido e igual ao texto visível; FAQ só com ≥ 3 perguntas reais, sem esperar rich result (acabou em 07/05/2026) | sim |\n| 8 | Data de atualização real | sim |\n| 9 | Leitura humana: tem opinião e \"o que deu errado\"; soa como o autor | sim |\n| 10 | Teste da troca: trocou a palavra-chave e o parágrafo segue válido? Reescreva | sim |\n| 11 | Cadência: ≤ 3 páginas novas por semana no mesmo cluster | sim |\n| 12 | Tradução só com hreflang recíproco | sim |\n| 13 | Bloco de autor com link para a página de autor (sameAs) | sim |\n| 14 | Escada de links feita: 2–3 antigas apontando para a nova, no mesmo commit | sim |\n| 15 | Pós-publicação: URL 200, título, canônico e JSON-LD presentes; buscadores avisados | sim |\n| 16 | Imagens e diagramas próprios quando ajudam (não banco de imagem) | não |"},
@@ -181,7 +181,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana.",
-      "curso": "inemaSEO 2 · Conteúdo",
+      "curso": "ARCKHÉSEO 2 · Conteúdo",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · Entidade", "aula": "entidade"},
@@ -193,7 +193,7 @@
         {"titulo": "Aula 7 · Notícias com página própria", "aula": "noticias"},
         {"titulo": "Aula 8 · O que não fazer", "aula": "sem-spam"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 2 · Conteúdo", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 2 · Conteúdo", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "resumo",
@@ -211,8 +211,8 @@
       "links": [
         {"t": "Google: políticas de spam (inglês)", "href": "https://developers.google.com/search/docs/essentials/spam-policies", "icone": "escudo"},
         {"t": "Google: conteúdo gerado com IA (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content", "icone": "robo"},
-        {"t": "Checklist de qualidade do inemaSEO (MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
-        {"t": "inemaSEO sistemas: ferramentas abertas", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "terminal"}
+        {"t": "Checklist de qualidade do ARCKHÉSEO (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"},
+        {"t": "ARCKHÉSEO sistemas: ferramentas abertas", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "terminal"}
       ]
     }
   ]

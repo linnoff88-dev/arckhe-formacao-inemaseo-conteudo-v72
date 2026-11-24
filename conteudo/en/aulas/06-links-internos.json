@@ -99,7 +99,7 @@
             "A catalog with in-browser search also needs links in the HTML: a collapsed index (details) solves it without changing the look."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 09/30/2026, the courses page became \"search only\" and 310 listing pages lost the only internal link rendered on the server. The fix was a collapsed index, with no visual change."
           }
         }
@@ -131,7 +131,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>$ tools/auditoria.sh https://www.inema.club / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | INEMA.club\n   links internos no HTML: 335</pre><p>With the collapsed index, the courses page delivers the links in the server's HTML, even though it's a search in the browser.</p>"
+            "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   links internos no HTML: 335</pre><p>With the collapsed index, the courses page delivers the links in the server's HTML, even though it's a search in the browser.</p>"
           },
           {
             "rot": "Common mistakes",
@@ -188,7 +188,7 @@
             "Too many images."
           ],
           "certa": 1,
-          "explica": "That was the INEMA case: 310 listing pages lost their only server-rendered link. A collapsed index fixed it.",
+          "explica": "That was the ARCKHÉ case: 310 listing pages lost their only server-rendered link. A collapsed index fixed it.",
           "ref": "passos"
         },
         {
@@ -245,8 +245,8 @@
           "icone": "lupa"
         },
         {
-          "t": "auditoria.sh (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh",
+          "t": "auditoria.sh (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh",
           "icone": "terminal"
         }
       ]

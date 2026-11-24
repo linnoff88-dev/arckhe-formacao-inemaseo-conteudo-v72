@@ -111,7 +111,7 @@
             "The others become support: they link to the owner page with descriptive text, or they are merged and redirected."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "The intent \"AI agent management\" has its owner page on the main site; the event page on the topic stays an event and links to the guide."
           }
         },
@@ -151,7 +151,7 @@
         "abas": [
           {
             "rot": "Why territory matters",
-            "html": "<p>At INEMA, the 28-day baseline (08/25 to 09/21/2026) showed that <b>639 of 647 clicks</b> came from people who were already searching for the brand. Generic searches added up to 8 clicks and 72 impressions.</p><p>With the catalog spread across the main site, the courses on another domain, the FAQs, and the news, several pages answered the same search. Territory was the first decision before writing any new content.</p>"
+            "html": "<p>At ARCKHÉ, the 28-day baseline (08/25 to 09/21/2026) showed that <b>639 of 647 clicks</b> came from people who were already searching for the brand. Generic searches added up to 8 clicks and 72 impressions.</p><p>With the catalog spread across the main site, the courses on another domain, the FAQs, and the news, several pages answered the same search. Territory was the first decision before writing any new content.</p>"
           },
           {
             "rot": "Common mistakes",
@@ -260,8 +260,8 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "inemaSEO method, step 5 (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method, step 5 (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {

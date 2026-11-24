@@ -46,7 +46,7 @@
          "texto": ["Nome, página \"sobre\", logo e os perfis oficiais. Só perfis que existem e que você controla.", "A página \"sobre\" precisa dizer, em texto visível, o mesmo que a marcação diz."]},
         {"titulo": "Pôr em todas as páginas", "sub": "no modelo do site",
          "texto": ["O bloco de entidade entra no layout, igual em todas as páginas.", "As marcações de cada página (artigo, notícia, curso) apontam para ele por @id, sem repetir dados."],
-         "exemplo": {"rot": "No inema.club", "texto": "Em 24/09/2026 a Person #nei e a Organization #organization passaram a sair em todas as páginas do portal (commit 965d901)."}},
+         "exemplo": {"rot": "No ARCKHÉ AI", "texto": "Em 24/09/2026 a Person #nei e a Organization #organization passaram a sair em todas as páginas do portal (commit 965d901)."}},
         {"titulo": "Testar o nome", "sub": "colisão",
          "texto": ["Pergunte \"o que é [sua marca]?\" a dois assistentes. Se a resposta fala de outra empresa ou órgão, há colisão de nome.", "Colisão não se resolve com marcação só: pede páginas que digam claramente quem você é, e perfis coerentes."]}
       ]
@@ -56,7 +56,7 @@
       "titulo": "O modelo de entidade e uma página apontando para ele",
       "sub": "Troque domínio, nomes e perfis. Não invente perfil que não existe.",
       "blocos": [
-        {"rot": "jsonld-entidade.json (templates do inemaSEO)", "icone": "arquivo",
+        {"rot": "jsonld-entidade.json (templates do ARCKHÉSEO)", "icone": "arquivo",
          "conteudo": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Person\",\n      \"@id\": \"https://www.seusite.com/#autor\",\n      \"name\": \"Seu Nome\",\n      \"url\": \"https://www.seusite.com/sobre/\",\n      \"worksFor\": { \"@id\": \"https://www.seusite.com/#organizacao\" },\n      \"sameAs\": [\"https://github.com/seu-usuario\", \"https://www.linkedin.com/in/seu-perfil/\"]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.seusite.com/#organizacao\",\n      \"name\": \"Sua Marca\",\n      \"url\": \"https://www.seusite.com/\",\n      \"logo\": \"https://www.seusite.com/logo.png\",\n      \"founder\": { \"@id\": \"https://www.seusite.com/#autor\" },\n      \"sameAs\": [\"https://www.youtube.com/@suamarca\", \"https://www.instagram.com/suamarca\"]\n    }\n  ]\n}"},
         {"rot": "Artigo apontando para a entidade", "icone": "texto",
          "conteudo": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Título igual ao da página\",\n  \"datePublished\": \"2026-10-19\",\n  \"dateModified\": \"2026-10-19\",\n  \"author\": { \"@id\": \"https://www.seusite.com/#autor\" },\n  \"publisher\": { \"@id\": \"https://www.seusite.com/#organizacao\" }\n}"},
@@ -68,8 +68,8 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída capturada (19/10/2026)", "html": "<p>JSON-LD da home do inema.club, só os itens com @id:</p><pre>EducationalOrganization  https://www.inema.club/#organization  sameAs: 5\nPerson                   https://www.inema.club/#nei           sameAs: 1\nWebSite                  https://www.inema.club/#website</pre><p>Numa página de pergunta do mesmo site:</p><pre>publisher → {\"@id\": \"https://www.inema.club/#organization\"}</pre>"},
-          {"rot": "Colisão de nome: o caso", "html": "<p>Em 10/07/2026, a bateria de 20 perguntas fixas do INEMA rodou no Claude e no Gemini. O INEMA apareceu em <b>0 de 48</b> respostas neutras no Claude e em <b>0 de 4</b> no Gemini.</p><p>Pior: \"O que é INEMA?\" teve 4 de 4 respostas sobre o INEMA-BA, um órgão ambiental. Depois disso foram publicadas 54 fichas no /conhecimento/ dizendo quem é o INEMA.</p>"},
+          {"rot": "Saída capturada (19/10/2026)", "html": "<p>JSON-LD da home do ARCKHÉ AI, só os itens com @id:</p><pre>EducationalOrganization  https://www.ARCKHÉ AI/#organization  sameAs: 5\nPerson                   https://www.ARCKHÉ AI/#nei           sameAs: 1\nWebSite                  https://www.ARCKHÉ AI/#website</pre><p>Numa página de pergunta do mesmo site:</p><pre>publisher → {\"@id\": \"https://www.ARCKHÉ AI/#organization\"}</pre>"},
+          {"rot": "Colisão de nome: o caso", "html": "<p>Em 10/07/2026, a bateria de 20 perguntas fixas do ARCKHÉ rodou no Claude e no Gemini. O ARCKHÉ apareceu em <b>0 de 48</b> respostas neutras no Claude e em <b>0 de 4</b> no Gemini.</p><p>Pior: \"O que é ARCKHÉ?\" teve 4 de 4 respostas sobre o ARCKHÉ-BA, um órgão ambiental. Depois disso foram publicadas 54 fichas no /conhecimento/ dizendo quem é o ARCKHÉ.</p>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Um @id por página</b>: vira uma entidade nova a cada página.</li><li><b>sameAs misturado</b>: perfil da pessoa na marca, e vice-versa.</li><li><b>Marcação que o texto não confirma</b>: o Google pede que a estrutura bata com o visível.</li></ul>"}
         ]
       }
@@ -100,7 +100,7 @@
          "certa": 1, "explica": "sameAs separado: perfis da pessoa na Person, perfis da marca na Organization. Misturar confunde pessoa e marca.", "ref": "codigo"},
         {"p": "\"O que é [sua marca]?\" volta falando de um órgão público com o mesmo nome. O que é isso?",
          "opcoes": ["Erro de robots.txt.", "Colisão de nome: o assistente conhece outra entidade com o seu nome.", "Penalidade do Google.", "Falta de llms.txt."],
-         "certa": 1, "explica": "Foi o caso do INEMA com o INEMA-BA. A saída é deixar claro quem você é, em páginas e perfis coerentes, e medir de novo depois.", "ref": "passos"},
+         "certa": 1, "explica": "Foi o caso do ARCKHÉ com o ARCKHÉ-BA. A saída é deixar claro quem você é, em páginas e perfis coerentes, e medir de novo depois.", "ref": "passos"},
         {"p": "A marcação diz que o autor é especialista com 20 anos de experiência, mas a página não fala disso. Vale?",
          "opcoes": ["Vale, marcação é para robô.", "Não: a estrutura precisa bater com o texto visível.", "Vale se estiver no sameAs.", "Vale só para IA."],
          "certa": 1, "explica": "O Google pede que os dados estruturados confirmem o que a página mostra. Marcação sem texto que a sustente é sinal fabricado.", "ref": "diagrama"}
@@ -120,7 +120,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Modelo jsonld-entidade.json (inemaSEO, MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/jsonld-entidade.json", "icone": "arquivo"},
+        {"t": "Modelo jsonld-entidade.json (ARCKHÉSEO, MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/jsonld-entidade.json", "icone": "arquivo"},
         {"t": "Validador de schema.org", "href": "https://validator.schema.org/", "icone": "check"},
         {"t": "Google: dados estruturados de organização (inglês)", "href": "https://developers.google.com/search/docs/appearance/structured-data/organization", "icone": "lupa"},
         {"t": "Google: conteúdo útil e confiável (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content", "icone": "lupa"}

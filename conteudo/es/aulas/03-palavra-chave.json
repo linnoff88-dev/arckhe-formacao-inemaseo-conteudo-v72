@@ -130,7 +130,7 @@
       "sub": "Cópialo en tu planilla. La agrupación puede hacerla un agente de tu suscripción, con revisión tuya.",
       "blocos": [
         {
-          "rot": "Score GO/NO-GO (método inemaSEO, etapa 6)",
+          "rot": "Score GO/NO-GO (método ARCKHÉSEO, etapa 6)",
           "icone": "lista",
           "conteudo": "| Criterio | Puntos |\n|---|---|\n| Aparece en el autocompletado de Google | +2 |\n| Google Trends > 0 en 12 meses (≥ 10% de un término ancla: +3) | +2 |\n| Ya tiene impresiones en Search Console | +3 |\n| Intención de aprender o comprar | +1 |\n| Top 10 con ≥ 3 resultados débiles (foro, video sin texto, antiguo, otro idioma) | +2 |\n| Top 10 dominado por grandes plataformas con página específica | −2 |\n| Tienes un experimento/curso/proyecto real para citar | +2 (sin eso: −3) |\n\nGO ≥ 6 · TALVEZ 3–5 · NO-GO ≤ 2"
         },
@@ -278,8 +278,8 @@
           "icone": "lupa"
         },
         {
-          "t": "Método inemaSEO, etapa 6 (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO, etapa 6 (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

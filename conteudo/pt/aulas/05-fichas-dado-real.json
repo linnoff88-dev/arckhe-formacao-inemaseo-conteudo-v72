@@ -41,7 +41,7 @@
       "sub": "Clique em cada passo.",
       "passos": [
         {"titulo": "O lote", "sub": "30/08/2026",
-         "texto": ["O INEMA publicou 283 fichas de curso num commit só. Das 6 fichas da amostra, 5 estavam \"descobertas, não indexadas\" e nunca tinham sido rastreadas."]},
+         "texto": ["O ARCKHÉ publicou 283 fichas de curso num commit só. Das 6 fichas da amostra, 5 estavam \"descobertas, não indexadas\" e nunca tinham sido rastreadas."]},
         {"titulo": "O diagnóstico", "sub": "por que era raso",
          "texto": ["Cada ficha tinha de 170 a 240 palavras, e duas fichas sorteadas compartilhavam 47% do vocabulário.", "O FAQ era idêntico em todas e a descrição era copiada da página do curso."]},
         {"titulo": "A extração", "sub": "prompt + trava",
@@ -55,10 +55,10 @@
       "titulo": "O prompt extrativo e a trava",
       "sub": "Troque \"curso\" pelo seu tipo de item. Rode a trava em cada frase e título.",
       "blocos": [
-        {"rot": "prompt-ficha-extrativa.md (templates do inemaSEO)", "icone": "chat",
+        {"rot": "prompt-ficha-extrativa.md (templates do ARCKHÉSEO)", "icone": "chat",
          "conteudo": "Você extrai a ementa de um curso a partir do TEXTO DA PÁGINA dele. Regras:\n- EXTRATIVO: copie títulos de módulos/trilhas exatamente como aparecem (pode remover emoji). Frases de\n  \"público\", \"aprende\" e \"constrói\" devem reusar as palavras da página; não invente nada.\n- Não inclua preço, gratuidade, promoções, depoimentos ou números de alunos.\n- Se um campo não estiver na página, use [] ou null.\nResponda SOMENTE JSON: {\"estrutura\":[{\"titulo\":\"\",\"detalhe\":\"\"}],\"aprende\":[\"\"],\"publico\":[\"\"],\n\"constroi\":[\"\"],\"pre_requisitos\":[\"\"],\"carga_horaria\":null,\"nivel\":null}\nLimites: estrutura até 12 itens — só trilhas/módulos/aulas do conteúdo, nunca seções da página\n(\"Para quem é\", \"FAQ\", \"Comece agora\")."},
         {"rot": "Rodar a trava (validar_extracao.mjs)", "icone": "terminal",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo\n# fonte.txt = texto da página real do item\nnode tools/validar_extracao.mjs fonte.txt \"Hidratação e dobras\"\nnode tools/validar_extracao.mjs fonte.txt \"Curso com 12 aulas sobre fermentação natural\""},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo\n# fonte.txt = texto da página real do item\nnode tools/validar_extracao.mjs fonte.txt \"Hidratação e dobras\"\nnode tools/validar_extracao.mjs fonte.txt \"Curso com 12 aulas sobre fermentação natural\""},
         {"rot": "fonte.txt usado no exemplo", "icone": "arquivo",
          "conteudo": "Curso de pão de fermentação natural\nMódulo 1: O levain do zero\nMódulo 2: Hidratação e dobras\nMódulo 3: Forno doméstico\nCarga: 6 aulas de 20 minutos.\nPara quem já faz pão com fermento comum e quer migrar para o levain."}
       ],
@@ -91,7 +91,7 @@
         {"p": "A trava reprovou uma frase porque o número não está na fonte. O que fazer?",
          "opcoes": ["Editar a frase até passar.", "Descartar o item.", "Publicar com aviso.", "Trocar o número por \"vários\"."],
          "certa": 1, "explica": "Item que falha é descartado, não consertado. Melhor uma ficha menor do que uma ficha mentirosa.", "ref": "diagrama", "cert": true},
-        {"p": "Por que as 283 fichas do INEMA não indexavam?",
+        {"p": "Por que as 283 fichas do ARCKHÉ não indexavam?",
          "opcoes": ["Faltava llms.txt.", "Eram finas e parecidas: 170 a 240 palavras, 47% de vocabulário em comum, FAQ idêntico, publicadas de uma vez.", "O robots.txt bloqueava.", "Não tinham imagem."],
          "certa": 1, "explica": "Lote grande de páginas finas e quase iguais. A correção foi conteúdo extraído da fonte real e publicação em lotes.", "ref": "passos"},
         {"p": "O que o prompt extrativo proíbe?",
@@ -115,8 +115,8 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "validar_extracao.mjs (inemaSEO, MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/validar_extracao.mjs", "icone": "terminal"},
-        {"t": "prompt-ficha-extrativa.md (inemaSEO, MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-ficha-extrativa.md", "icone": "arquivo"},
+        {"t": "validar_extracao.mjs (ARCKHÉSEO, MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/validar_extracao.mjs", "icone": "terminal"},
+        {"t": "prompt-ficha-extrativa.md (ARCKHÉSEO, MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-ficha-extrativa.md", "icone": "arquivo"},
         {"t": "Google: políticas de spam, conteúdo escalado (inglês)", "href": "https://developers.google.com/search/docs/essentials/spam-policies", "icone": "escudo"}
       ]
     }

@@ -91,7 +91,7 @@
           "titulo": "The batch",
           "sub": "30/08/2026",
           "texto": [
-            "INEMA published 283 course listing pages in a single commit. Of the 6 listing pages in the sample, 5 were \"discovered, not indexed\" and had never been crawled."
+            "ARCKHÉ published 283 course listing pages in a single commit. Of the 6 listing pages in the sample, 5 were \"discovered, not indexed\" and had never been crawled."
           ]
         },
         {
@@ -125,14 +125,14 @@
       "sub": "Replace \"course\" with your own type of item. Run the check on every sentence and title.",
       "blocos": [
         {
-          "rot": "prompt-ficha-extrativa.md (inemaSEO templates)",
+          "rot": "prompt-ficha-extrativa.md (ARCKHÉSEO templates)",
           "icone": "chat",
           "conteudo": "You extract a course's syllabus from the TEXT OF ITS PAGE. Rules:\n- EXTRACTIVE: copy module/track titles exactly as they appear (you may remove emoji). \"Audience\", \"learns\" and \"builds\" phrases\n  must reuse the words on the page; do not invent anything.\n- Do not include price, free access, promotions, testimonials or student counts.\n- If a field is not on the page, use [] or null.\nAnswer ONLY JSON: {\"estrutura\":[{\"titulo\":\"\",\"detalhe\":\"\"}],\"aprende\":[\"\"],\"publico\":[\"\"],\n\"constroi\":[\"\"],\"pre_requisitos\":[\"\"],\"carga_horaria\":null,\"nivel\":null}\nLimits: estrutura up to 12 items — only tracks/modules/lessons of the content, never sections of the page\n(\"Who it's for\", \"FAQ\", \"Start now\")."
         },
         {
           "rot": "Run the check (validar_extracao.mjs)",
           "icone": "terminal",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo\n# fonte.txt = text of the item's actual page\nnode tools/validar_extracao.mjs fonte.txt \"Hydration and folds\"\nnode tools/validar_extracao.mjs fonte.txt \"Natural-fermentation bread course with 12 lessons\""
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo\n# fonte.txt = text of the item's actual page\nnode tools/validar_extracao.mjs fonte.txt \"Hydration and folds\"\nnode tools/validar_extracao.mjs fonte.txt \"Natural-fermentation bread course with 12 lessons\""
         },
         {
           "rot": "fonte.txt used in the example",
@@ -194,7 +194,7 @@
           "cert": true
         },
         {
-          "p": "Why weren't INEMA's 283 listing pages getting indexed?",
+          "p": "Why weren't ARCKHÉ's 283 listing pages getting indexed?",
           "opcoes": [
             "There was no llms.txt.",
             "They were thin and alike: 170 to 240 words, 47% shared vocabulary, an identical FAQ, all published at once.",
@@ -254,13 +254,13 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "validar_extracao.mjs (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/validar_extracao.mjs",
+          "t": "validar_extracao.mjs (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/validar_extracao.mjs",
           "icone": "terminal"
         },
         {
-          "t": "prompt-ficha-extrativa.md (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
+          "t": "prompt-ficha-extrativa.md (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/prompt-ficha-extrativa.md",
           "icone": "arquivo"
         },
         {

@@ -1,8 +1,8 @@
-# PLANO — inemaSEO 2 · Conteúdo: páginas que só você pode escrever (v7.2)
+# PLANO — ARCKHÉSEO 2 · Conteúdo: páginas que só você pode escrever (v7.2)
 
-Curso 2 de 6 da Formação inemaSEO. Público: dono de site ou criador que já fez a fundação (curso 1). Ordem: 1 → 2 → 3 → 4 → 5 → 6.
+Curso 2 de 6 da Formação ARCKHÉSEO. Público: dono de site ou criador que já fez a fundação (curso 1). Ordem: 1 → 2 → 3 → 4 → 5 → 6.
 
-Fontes (não alteradas): `~/projetos/inemaseo-metodo` (docs/METODO.md etapas 4–9, docs/CHECKLIST.md, templates/jsonld-entidade.json, jsonld-newsarticle.json, prompt-ficha-extrativa.md, prompt-texto-noticia.md, tools/validar_extracao.mjs), `~/projetos/inemaseo` (docs/ESTRATEGIA_REFERENCIA_ECOSSISTEMA.md, PLANO_EXECUCAO_SEO.md §4–5, COMO_CRIAR_PAGINA_IA.md; números só da lista "Casos reais" do BRIEF), `wifi/longrun/2026-10-19-formacao-inemaseo-v72/` (TENDENCIAS, REVISAO §4.1–4.2).
+Fontes (não alteradas): `~/projetos/ARCKHÉseo-metodo` (docs/METODO.md etapas 4–9, docs/CHECKLIST.md, templates/jsonld-entidade.json, jsonld-newsarticle.json, prompt-ficha-extrativa.md, prompt-texto-noticia.md, tools/validar_extracao.mjs), `~/projetos/ARCKHÉseo` (docs/ESTRATEGIA_REFERENCIA_ECOSSISTEMA.md, PLANO_EXECUCAO_SEO.md §4–5, COMO_CRIAR_PAGINA_IA.md; números só da lista "Casos reais" do BRIEF), `wifi/longrun/2026-10-19-formacao-ARCKHÉseo-v72/` (TENDENCIAS, REVISAO §4.1–4.2).
 
 ## As 8 aulas
 
@@ -36,7 +36,7 @@ Somas: direto 2+2+2+2 = 8; desvio 1+1+2+2+2 = 8 (não passa do direto). Máximo 
 ## Decisões tomadas sozinho
 - "Resposta direta de 40–60 palavras" (METODO etapa 6) vira "resposta de 2 a 4 frases" (COMO_CRIAR_PAGINA_IA) e é ensinada como clareza; Régua de 2026 diz que não há fonte que a sustente como fator de IA.
 - CHECKLIST item 7 (`FAQPage` com FAQ real) mostrado adaptado: FAQ visível útil ao leitor; o rich result de FAQ acabou em 07/05/2026.
-- Clusters por intenção sem script (não há um no inemaseo-metodo): planilha.
+- Clusters por intenção sem script (não há um no ARCKHÉseo-metodo): planilha.
 - Saída real do `validar_extracao.mjs` capturada em 19/10/2026 com uma fonte de exemplo (padaria), dentro de `saida` selo real.
 - Números da ESTRATEGIA fora da lista "Casos reais" (catálogo, preços, comunidade) não entram.
 

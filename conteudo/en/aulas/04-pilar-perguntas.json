@@ -39,7 +39,7 @@
           "titulo": "Pillar page",
           "sub": "central topic, long text",
           "forte": true,
-          "detalhe": "One page per central topic (2 or 3 on the whole site), long: the inemaSEO method says 2,500 to 4,000 words. It links to all the question pages on the topic and to the other pillar pages."
+          "detalhe": "One page per central topic (2 or 3 on the whole site), long: the ARCKHÉSEO method says 2,500 to 4,000 words. It links to all the question pages on the topic and to the other pillar pages."
         },
         {
           "icone": "chat",
@@ -106,7 +106,7 @@
             "Links to the pillar page, 2 to 4 sister pages, and 2 catalog items (lesson 6)."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "Pillar pages 2 and 3 and the JARVIS question page were published on 09/24/2026; the pillar drafts were about 3,150 and 2,450 words."
           }
         }
@@ -223,7 +223,7 @@
             "Copy the FAQ from another page of yours."
           ],
           "certa": 2,
-          "explica": "A made-up or copied FAQ was part of the problem with INEMA's thin listing pages (identical FAQ on all of them).",
+          "explica": "A made-up or copied FAQ was part of the problem with ARCKHÉ's thin listing pages (identical FAQ on all of them).",
           "ref": "passos"
         }
       ]
@@ -265,8 +265,8 @@
           "icone": "calendario"
         },
         {
-          "t": "inemaSEO quality checklist (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "ARCKHÉSEO quality checklist (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

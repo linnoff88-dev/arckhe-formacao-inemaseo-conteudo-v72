@@ -116,7 +116,7 @@
     {
       "tipo": "codigo",
       "titulo": "El checklist de los 16 ítems",
-      "sub": "Del inemaSEO, adaptado a la vara de 2026 en los ítems 1 y 7. Pasa cada página por él antes de publicar.",
+      "sub": "Del ARCKHÉSEO, adaptado a la vara de 2026 en los ítems 1 y 7. Pasa cada página por él antes de publicar.",
       "blocos": [
         {
           "rot": "CHECKLIST.md (adaptado)",
@@ -407,7 +407,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana.",
-      "curso": "inemaSEO 2 · Contenido",
+      "curso": "ARCKHÉSEO 2 · Contenido",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -444,7 +444,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 2 · Contenido",
+        "titulo": "Plan — ARCKHÉSEO 2 · Contenido",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Fin previsto",
@@ -493,13 +493,13 @@
           "icone": "robo"
         },
         {
-          "t": "Checklist de calidad de inemaSEO (MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "Checklist de calidad de ARCKHÉSEO (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         },
         {
-          "t": "inemaSEO sistemas: herramientas abiertas",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉSEO sistemas: herramientas abiertas",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "terminal"
         }
       ]

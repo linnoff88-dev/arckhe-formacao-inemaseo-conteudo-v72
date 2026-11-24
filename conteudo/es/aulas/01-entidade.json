@@ -112,7 +112,7 @@
             "Los marcados de cada página (artículo, noticia, curso) apuntan a él por @id, sin repetir datos."
           ],
           "exemplo": {
-            "rot": "En inema.club",
+            "rot": "En ARCKHÉ AI",
             "texto": "El 24/09/2026 la Person #nei y la Organization #organization pasaron a salir en todas las páginas del portal (commit 965d901)."
           }
         },
@@ -132,7 +132,7 @@
       "sub": "Cambia dominio, nombres y perfiles. No inventes un perfil que no existe.",
       "blocos": [
         {
-          "rot": "jsonld-entidade.json (templates del inemaSEO)",
+          "rot": "jsonld-entidade.json (templates del ARCKHÉSEO)",
           "icone": "arquivo",
           "conteudo": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Person\",\n      \"@id\": \"https://www.seusite.com/#autor\",\n      \"name\": \"Tu Nombre\",\n      \"url\": \"https://www.seusite.com/sobre/\",\n      \"worksFor\": { \"@id\": \"https://www.seusite.com/#organizacao\" },\n      \"sameAs\": [\"https://github.com/seu-usuario\", \"https://www.linkedin.com/in/seu-perfil/\"]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.seusite.com/#organizacao\",\n      \"name\": \"Tu Marca\",\n      \"url\": \"https://www.seusite.com/\",\n      \"logo\": \"https://www.seusite.com/logo.png\",\n      \"founder\": { \"@id\": \"https://www.seusite.com/#autor\" },\n      \"sameAs\": [\"https://www.youtube.com/@suamarca\", \"https://www.instagram.com/suamarca\"]\n    }\n  ]\n}"
         },
@@ -157,11 +157,11 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<p>JSON-LD de la home de inema.club, solo los ítems con @id:</p><pre>EducationalOrganization  https://www.inema.club/#organization  sameAs: 5\nPerson                   https://www.inema.club/#nei           sameAs: 1\nWebSite                  https://www.inema.club/#website</pre><p>En una página de pregunta del mismo sitio:</p><pre>publisher → {\"@id\": \"https://www.inema.club/#organization\"}</pre>"
+            "html": "<p>JSON-LD de la home de ARCKHÉ AI, solo los ítems con @id:</p><pre>EducationalOrganization  https://www.ARCKHÉ AI/#organization  sameAs: 5\nPerson                   https://www.ARCKHÉ AI/#nei           sameAs: 1\nWebSite                  https://www.ARCKHÉ AI/#website</pre><p>En una página de pregunta del mismo sitio:</p><pre>publisher → {\"@id\": \"https://www.ARCKHÉ AI/#organization\"}</pre>"
           },
           {
             "rot": "Colisión de nombre: el caso",
-            "html": "<p>El 10/07/2026, la batería de 20 preguntas fijas de INEMA corrió en Claude y en Gemini. INEMA apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini.</p><p>Peor aún: \"¿Qué es INEMA?\" tuvo 4 de 4 respuestas sobre INEMA-BA, un organismo ambiental. Después de eso se publicaron 54 fichas en /conhecimento/ que dicen quién es INEMA.</p>"
+            "html": "<p>El 10/07/2026, la batería de 20 preguntas fijas de ARCKHÉ corrió en Claude y en Gemini. ARCKHÉ apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini.</p><p>Peor aún: \"¿Qué es ARCKHÉ?\" tuvo 4 de 4 respuestas sobre ARCKHÉ-BA, un organismo ambiental. Después de eso se publicaron 54 fichas en /conhecimento/ que dicen quién es ARCKHÉ.</p>"
           },
           {
             "rot": "Errores comunes",
@@ -230,7 +230,7 @@
             "Falta de llms.txt."
           ],
           "certa": 1,
-          "explica": "Fue el caso de INEMA con INEMA-BA. La salida es dejar claro quién eres, en páginas y perfiles coherentes, y volver a medir después.",
+          "explica": "Fue el caso de ARCKHÉ con ARCKHÉ-BA. La salida es dejar claro quién eres, en páginas y perfiles coherentes, y volver a medir después.",
           "ref": "passos"
         },
         {
@@ -274,8 +274,8 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Modelo jsonld-entidade.json (inemaSEO, MIT)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/templates/jsonld-entidade.json",
+          "t": "Modelo jsonld-entidade.json (ARCKHÉSEO, MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/templates/jsonld-entidade.json",
           "icone": "arquivo"
         },
         {

@@ -150,7 +150,7 @@
         "abas": [
           {
             "rot": "Scored example",
-            "html": "<p>Fictional example, from a sourdough bakery:</p><ul><li><b>\"como fazer levain\"</b>: autocomplete +2, Trends +3, no impressions 0, learning +1, top 10 with 3 weak results +2, recipe tested at the bakery itself +2 → <b>10, GO</b>.</li><li><b>\"melhor pão do Brasil\"</b>: autocomplete +2, Trends +2, no impressions 0, no clear intent 0, big portals −2, nothing first-hand −3 → <b>−1, NO-GO</b>.</li></ul>"
+            "html": "<p>Fictional example, from a sourdough bakery:</p><ul><li><b>\"como fazer levain\"</b>: autocomplete +2, Trends +3, no impressions 0, learning +1, top 10 with 3 weak results +2, recipe tested at the bakery itself +2 → <b>10, GO</b>.</li><li><b>\"melhor pêo do Brasil\"</b>: autocomplete +2, Trends +2, no impressions 0, no clear intent 0, big portals −2, nothing first-hand −3 → <b>−1, NO-GO</b>.</li></ul>"
           },
           {
             "rot": "The limit of free",

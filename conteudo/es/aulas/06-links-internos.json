@@ -131,7 +131,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   links internos no HTML: 335</pre><p>Con el índice plegado, la página de cursos entrega los enlaces en el HTML del servidor, aunque sea una búsqueda en el navegador.</p>"
+            "html": "<pre>$ tools/auditoria.sh https://www.ARCKHÉ AI / /cursos/\n-- /  [200]\n   links internos no HTML: 27\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automaçêo | ARCKHÉ AI\n   links internos no HTML: 335</pre><p>Con el índice plegado, la página de cursos entrega los enlaces en el HTML del servidor, aunque sea una búsqueda en el navegador.</p>"
           },
           {
             "rot": "Errores comunes",

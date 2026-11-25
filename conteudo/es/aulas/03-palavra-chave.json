@@ -150,7 +150,7 @@
         "abas": [
           {
             "rot": "Ejemplo puntuado",
-            "html": "<p>Ejemplo ficticio, de una panadería de fermentación natural:</p><ul><li><b>\"como fazer levain\"</b>: autocompletado +2, Trends +3, sin impresiones 0, aprender +1, top 10 con 3 débiles +2, receta probada en la propia panadería +2 → <b>10, GO</b>.</li><li><b>\"melhor pão do Brasil\"</b>: autocompletado +2, Trends +2, sin impresiones 0, sin intención clara 0, grandes portales −2, nada propio −3 → <b>−1, NO-GO</b>.</li></ul>"
+            "html": "<p>Ejemplo ficticio, de una panadería de fermentación natural:</p><ul><li><b>\"como fazer levain\"</b>: autocompletado +2, Trends +3, sin impresiones 0, aprender +1, top 10 con 3 débiles +2, receta probada en la propia panadería +2 → <b>10, GO</b>.</li><li><b>\"melhor pêo do Brasil\"</b>: autocompletado +2, Trends +2, sin impresiones 0, sin intención clara 0, grandes portales −2, nada propio −3 → <b>−1, NO-GO</b>.</li></ul>"
           },
           {
             "rot": "El límite de lo gratis",

@@ -55,7 +55,7 @@
       "titulo": "A planilha do score e o pedido de agrupamento",
       "sub": "Copie para a sua planilha. O agrupamento pode ser feito por um agente da sua assinatura, com revisêo sua.",
       "blocos": [
-        {"rot": "Score GO/NO-GO (método inemaSEO, etapa 6)", "icone": "lista",
+        {"rot": "Score GO/NO-GO (método ARCKHÉSEO, etapa 6)", "icone": "lista",
          "conteudo": "| Critério | Pontos |\n|---|---|\n| Aparece no autocomplete do Google | +2 |\n| Google Trends > 0 em 12 meses (≥ 10% de um termo-âncora: +3) | +2 |\n| Já tem impressêo no Search Console | +3 |\n| Intençêo de aprender ou comprar | +1 |\n| Top 10 com ≥ 3 resultados fracos (fórum, vídeo sem texto, antigo, outro idioma) | +2 |\n| Top 10 dominado por grandes plataformas com página específica | −2 |\n| Você tem experimento/curso/projeto real para citar | +2 (sem isso: −3) |\n\nGO ≥ 6 · TALVEZ 3–5 · NO-GO ≤ 2"},
         {"rot": "Colunas da planilha", "icone": "grafico",
          "conteudo": "termo | autocomplete | trends | gsc | intencao | top10_fraco | top10_grandes | dado_proprio (qual?) | score | decisao | cluster"},
@@ -119,7 +119,7 @@
         {"t": "Google Trends", "href": "https://trends.google.com/", "icone": "grafico"},
         {"t": "Google Search Console", "href": "https://search.google.com/search-console", "icone": "grafico"},
         {"t": "Google: guia de otimizaçêo para recursos de IA (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide", "icone": "lupa"},
-        {"t": "Método inemaSEO, etapa 6 (MIT)", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
+        {"t": "Método ARCKHÉSEO, etapa 6 (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
       ]
     }
   ]
